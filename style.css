@@ -1,0 +1,103 @@
+
+h1 {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+p {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+a {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.caixav {
+    background-color: #275151;
+    width: 900px;
+    border-radius: 10px;
+}
+
+.spo, .you {
+    border-bottom: rgb(255, 255, 255) 2px solid;
+}
+
+.ajuda {
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, .1019607843);
+    background-color: rgb(235, 230, 223);
+    width: 900px;
+    border-radius: 10px;
+}
+
+.faça {
+    color: rgb(51, 51, 51);
+    background-color: white;
+    width: 200px;
+    font-weight: 700px;
+    font-size:18px;
+    Line-Height:23px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.aju {
+    display: flex;
+  flex-direction: column;
+    align-items: center;
+   
+}
+
+
+.dada {
+    font-weight: 400;
+    Color: rgb(89, 89, 89); 
+    Size: 12px;
+    Line-Height: 18px;
+}
+
+.you, .spo, .com {
+    display: flex;
+   align-items: center;
+   color: white;
+}
+.d, .f {
+    width: 170px;
+    border: white;
+    border-radius: 29px;
+    margin-left: 20px;
+    padding: 10px 6px;
+    height: 100px;
+  
+    
+}
+
+.g {
+    width: 40px;
+    border: white;
+    border-radius: 29px;
+  
+}
+
+.hebaci {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.haraci {
+    margin-bottom: -5px;
+}
+
+.minicai {
+    display: flex;
+    align-items: center;
+    background-color: rgb(32, 33, 36);
+    border-radius: 19px;
+    padding: 10px 6px;
+    height: 60px;
+    margin-left: 20px;
+}
