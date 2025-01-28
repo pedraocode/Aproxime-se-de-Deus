@@ -1,103 +1,211 @@
-
-h1 {
+body {
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.container {
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-h2 {
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+.crentuê {
+    align-self: flex-start;
+    margin-left: 10px;
 }
 
-p {
+h1, h2, p, a {
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 a {
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    color: white;
+    color: #fff;
     font-weight: bold;
+  
 }
 
+
 .caixav {
-    background-color: #275151;
-    width: 900px;
+    background-color: #143c3c;
+    width: 600px;
     border-radius: 10px;
+    padding: 20px;
+    color: white;
 }
 
 .spo, .you {
-    border-bottom: rgb(255, 255, 255) 2px solid;
-}
-
-.ajuda {
-    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, .1019607843);
-    background-color: rgb(235, 230, 223);
-    width: 900px;
-    border-radius: 10px;
-}
-
-.faça {
-    color: rgb(51, 51, 51);
-    background-color: white;
-    width: 200px;
-    font-weight: 700px;
-    font-size:18px;
-    Line-Height:23px;
-    padding: 10px;
-    border-radius: 10px;
-}
-.aju {
-    display: flex;
-  flex-direction: column;
-    align-items: center;
-   
-}
-
-
-.dada {
-    font-weight: 400;
-    Color: rgb(89, 89, 89); 
-    Size: 12px;
-    Line-Height: 18px;
+    border-bottom: 1px solid white;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .you, .spo, .com {
     display: flex;
-   align-items: center;
-   color: white;
-}
-.d, .f {
-    width: 170px;
-    border: white;
-    border-radius: 29px;
-    margin-left: 20px;
-    padding: 10px 6px;
-    height: 100px;
-  
-    
-}
-
-.g {
-    width: 40px;
-    border: white;
-    border-radius: 29px;
-  
+    justify-content: space-between;
+    align-items: center;
 }
 
 .hebaci {
-    display: flex;
-    flex-direction: column;
-    margin-left: 15px;
+    flex: 1;
 }
 
-.haraci {
-    margin-bottom: -5px;
+img {
+    width: 40px;
+    height: 40px;
 }
 
 .minicai {
+    width: 180px;
     display: flex;
     align-items: center;
-    background-color: rgb(32, 33, 36);
-    border-radius: 19px;
-    padding: 10px 6px;
-    height: 60px;
-    margin-left: 20px;
+    background-color: #222;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    height: 50px;
+    margin-bottom: -35px;
+}
+
+.g {
+    margin-right: 5px;
+}
+
+.ajuda {
+    background-color: #ebe6df;
+    width: 600px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.faça {
+    background-color: white;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 1px solid rgb(117, 117, 117);
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.receba {
+    background-color: rgb(250, 232, 197);
+    width: 600px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.receba input {
+    width: 500px;
+    padding: 13px;
+    padding-right: 30px;
+    border: 1px solid rgb(240, 170, 41);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.receba button {
+    background-color: #ff6600;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: -118px;
+}
+
+.dada {
+    font-size: 12px;
+    color: #595959;
+    margin-top: 10px;
+}
+
+.junte {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.ok {
+    white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.encima {
+    display: flex;
+    flex-direction: column;
+}
+
+.encima p {
+margin-bottom: -25px;
+}
+
+.hraci {
+    color: rgb(77, 66, 51);
+}
+
+@media (max-width: 768px) {
+    .caixav, .ajuda, .receba {
+        width: 90%;
+    }
+
+    .receba input {
+        width: 70%;
+    }
+
+    .receba button {
+    
+        width: auto;
+    }
+
+ 
+
+}
+
+
+
+
+@media (max-width: 768px) {
+    .caixav {
+        width: 90%;
+        
+    }
+
+    .you, .spo, .com {
+        flex-wrap: wrap;
+    }
+
+    .hebaci {
+        width: 100%;
+    }
+
+    .minicai {
+        flex-shrink: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .you, .spo, .com {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .minicai {
+        align-self: center;
+        margin-top: 10px;
+    }
 }
